@@ -24,7 +24,7 @@ To get started with the project, follow these steps:
 
 Your goal is to add a new visualization feature to the application. Please complete the following:
 
-* **Create a New Page**: Build a new page/route in the application called **Engagement Map**.
+* **Create a New Page**: Build a new page/route in the application called **Engagement Map** under the network page.
 * **Implement the Map**: Display a map component on this new page. You may refer to existing map implementations in the
   codebase (e.g., `src/components/Network/CommunityPartners.jsx`) for guidance.
 * **Custom Markers**: The map should not use the default blue markers. Instead, it must display markers using an image
