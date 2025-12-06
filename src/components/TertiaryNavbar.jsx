@@ -7,13 +7,13 @@ function TertiaryNavbar({ section }) {
   const getNavItems = () => {
     switch (section) {
       case "network":
-        return ["Community Partners", "Researchers", "Community Engaged Projects", "Office of Community Engagement"];
+        return ["Community Partners", "Researchers", "Community Engaged Projects", "Office of Community Engagement", "Engagement Map"];
       case "resources":
         return ["Guides", "Tools", "Articles"];
       case "about":
         return ["Team", "Mission", "Contact"];
       default:
-        return ["Community Partners", "Researchers", "Community Engaged Projects", "Office of Community Engagement"];
+        return ["Community Partners", "Researchers", "Community Engaged Projects", "Office of Community Engagement", "Engagement Map"];
     }
   };
 

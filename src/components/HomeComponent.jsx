@@ -12,7 +12,7 @@ import CommunityPartners from './Network/CommunityPartners.jsx'
 import Researchers from './Network/Researchers.jsx'
 import CommunityProjects from './Network/CommunityProjects.jsx'
 import OfficeEngagement from './Network/OfficeEngagement.jsx'
-
+import EngagementMap from './Network/EngagementMap.jsx'
 
 function HomeComponent() {
     const navigate = useNavigate();
@@ -40,6 +40,7 @@ function HomeComponent() {
                     <Route path="network/researchers" element={<Researchers/>}/>
                     <Route path="network/community-engaged-projects" element={<CommunityProjects/>}/>
                     <Route path="network/office-of-community-engagement" element={<OfficeEngagement/>}/>
+                    <Route path="network/engagement-map" element={<EngagementMap/>}/>
 
                     <Route path="/resources" element={<ResourcesComponent/>}/>
 
